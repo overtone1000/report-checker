@@ -13,7 +13,8 @@
                     "test",
                     "--no-run",
                     "--lib",
-                    "--package=report-checker"
+                    "--package=report-checker",
+                    "--manifest-path=${workspaceFolder}/Cargo.toml"
                 ],
                 "filter": {
                     "name": "report_checker",
@@ -31,7 +32,8 @@
                 "args": [
                     "build",
                     "--bin=report-checker",
-                    "--package=report-checker"
+                    "--package=report-checker",
+                    "--manifest-path=${workspaceFolder}/Cargo.toml"
                 ],
                 "filter": {
                     "name": "report-checker",
@@ -50,7 +52,8 @@
                     "test",
                     "--no-run",
                     "--bin=report-checker",
-                    "--package=report-checker"
+                    "--package=report-checker",
+                    "--manifest-path=${workspaceFolder}/Cargo.toml"
                 ],
                 "filter": {
                     "name": "report-checker",
